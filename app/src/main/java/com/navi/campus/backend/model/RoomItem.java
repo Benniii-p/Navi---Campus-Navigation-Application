@@ -1,4 +1,4 @@
-package com.navi.campus.data;
+package com.navi.campus.backend.model;
 
 public class RoomItem {
 

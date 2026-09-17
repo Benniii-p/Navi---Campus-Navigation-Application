@@ -1,4 +1,4 @@
-package com.navi.campus;
+package com.navi.campus.frontend;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -15,9 +15,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.navi.campus.adapter.RoomAdapter;
-import com.navi.campus.data.RoomItem;
-import com.navi.campus.data.RoomRepository;
+import com.navi.campus.R;
+import com.navi.campus.backend.model.RoomItem;
+import com.navi.campus.backend.repository.RoomRepository;
+import com.navi.campus.frontend.adapter.RoomAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

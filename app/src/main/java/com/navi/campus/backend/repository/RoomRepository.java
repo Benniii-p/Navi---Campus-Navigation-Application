@@ -1,10 +1,18 @@
-package com.navi.campus.data;
+package com.navi.campus.backend.repository;
 
 import com.navi.campus.R;
+import com.navi.campus.backend.model.RoomCategory;
+import com.navi.campus.backend.model.RoomItem;
 
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Stand-in data source for room/building data.
+ * Swap the body of {@link #getRooms()} for a real API or database call
+ * (e.g. Retrofit call, Room DAO query, Firestore fetch) without touching
+ * any frontend code, since callers only depend on this method's signature.
+ */
 public final class RoomRepository {
 
     private RoomRepository() {

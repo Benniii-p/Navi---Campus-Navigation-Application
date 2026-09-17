@@ -1,4 +1,4 @@
-package com.navi.campus.adapter;
+package com.navi.campus.frontend.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.navi.campus.R;
-import com.navi.campus.data.RoomItem;
+import com.navi.campus.backend.model.RoomItem;
 
 import java.util.ArrayList;
 import java.util.List;
