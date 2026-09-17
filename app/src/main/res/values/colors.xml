@@ -1,3 +1,31 @@
 <resources>
     <color name="ic_launcher_background">#0B1220</color>
+
+    <color name="navi_background_top">#10192B</color>
+    <color name="navi_background_bottom">#0A0F1C</color>
+    <color name="navi_surface">#141E33</color>
+    <color name="navi_surface_variant">#1B2740</color>
+    <color name="navi_border">#243252</color>
+
+    <color name="navi_accent_green">#2ECC71</color>
+    <color name="navi_accent_green_dim">#1E7A46</color>
+
+    <color name="navi_text_primary">#F5F7FA</color>
+    <color name="navi_text_secondary">#8B96AC</color>
+    <color name="navi_text_muted">#5E6B84</color>
+
+    <color name="badge_office_bg">#3A2A14</color>
+    <color name="badge_office_text">#E8A33D</color>
+
+    <color name="badge_support_bg">#3B2118</color>
+    <color name="badge_support_text">#E8703D</color>
+
+    <color name="badge_lab_bg">#2A1E42</color>
+    <color name="badge_lab_text">#B18CF0</color>
+
+    <color name="badge_department_bg">#16332A</color>
+    <color name="badge_department_text">#3DDC97</color>
+
+    <color name="badge_faculty_bg">#3A1E30</color>
+    <color name="badge_faculty_text">#E873B8</color>
 </resources>

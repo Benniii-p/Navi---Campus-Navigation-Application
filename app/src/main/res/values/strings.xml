@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Navi</string>
+    <string name="results_found_format">%d results found</string>
 </resources>
