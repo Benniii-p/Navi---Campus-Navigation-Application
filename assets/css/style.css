@@ -209,3 +209,10 @@ body { background: var(--navi-bg); min-height: 100vh; display: flex; flex-direct
 @media (max-width: 575.98px) {
     .map-legend { flex-wrap: nowrap; overflow-x: auto; font-size: .72rem; padding: .3rem .6rem; }
 }
+
+/* Official CvSU-CCC map photos */
+.official-map-img { display: block; width: 100%; max-height: 75vh; object-fit: contain; background: #f8fafc; border-radius: .75rem; border: 1px solid #e2e8f0; cursor: zoom-in; }
+#officialMaps .nav-link.active { background: var(--navi-green); }
+#officialMaps .nav-link { color: var(--navi-green); }
+#officialMaps .nav-link.active { color: #fff; }
+.official-map-card .card-img-top { height: 180px; object-fit: cover; object-position: center 45%; }

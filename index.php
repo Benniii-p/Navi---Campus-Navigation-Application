@@ -109,6 +109,13 @@ $cats = navi_categories();
                     </a>
                 <?php endforeach; ?>
             </div>
+            <a href="map.php?official=site" class="card border-0 shadow-sm mb-3 text-decoration-none official-map-card">
+                <img src="assets/img/maps/cvsu-ccc-ground-site-map.webp" alt="CvSU-CCC Ground Site Map" class="card-img-top" loading="lazy">
+                <div class="card-body py-2">
+                    <strong class="text-body"><i class="bi bi-map text-success"></i> CvSU-CCC Campus Map</strong>
+                    <small class="d-block text-body-secondary">Ground site map, ground floor and second floor plans</small>
+                </div>
+            </a>
             <div class="card border-0 shadow-sm">
                 <div class="card-body">
                     <h3 class="h6 fw-bold"><i class="bi bi-info-circle text-success"></i> How to use Navi</h3>

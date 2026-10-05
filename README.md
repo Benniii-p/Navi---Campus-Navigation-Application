@@ -14,6 +14,7 @@ It follows the System Proposal:
 | List of all destinations + location information of a selected destination | `search.php?all=1`, place card on `map.php` |
 | Simple, user-friendly, works on any device with a browser | Responsive Bootstrap 5 layout, bottom navigation on phones |
 | Destination info updated manually when rooms or offices change | Admin panel `admin/` |
+| CvSU-CCC campus map (Ground Site Map, Ground Floor Plan, Second Floor Plan) | **CvSU-CCC Campus Map** button on `map.php` (also `map.php?official=site`, `ground` or `second`) and the card on the Home screen. Images are in `assets/img/maps/` |
 | QR code posters (Training Costs in the proposal) | `admin/qr.php` – each poster opens Navi with "You are here" set |
 
 Extra: step-by-step directions with the route drawn on the floor map, including the stairs
@@ -164,6 +165,7 @@ navi/
 │   ├── js/location.js     Current Location screen logic
 │   ├── js/admin-*.js      Admin map editor and QR generator
 │   ├── img/navi-logo.svg
+│   ├── img/maps/          Photos of the posted CvSU-CCC campus maps
 │   └── vendor/            Bootstrap, Bootstrap Icons, Leaflet, QRCode.js
 └── database/navi_db.sql   Database + sample data (import in phpMyAdmin)
 ```

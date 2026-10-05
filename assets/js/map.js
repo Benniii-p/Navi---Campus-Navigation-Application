@@ -18,6 +18,20 @@
         `<span><i style="background:${c.color}"></i>${Navi.escapeHtml(name)}</span>`).join('') +
         '<span><i class="lg-route"></i>Route</span>';
 
+    // ---- ?official=site|ground|second opens the CvSU-CCC campus map photos ----
+    const official = params.get('official');
+    if (official) {
+        const tab = document.querySelector(`[data-bs-target="#om-${official}"]`);
+        if (tab) bootstrap.Tab.getOrCreateInstance(tab).show();
+        bootstrap.Modal.getOrCreateInstance($('officialMaps')).show();
+    }
+    // When the photos open, show the tab for the floor being viewed
+    $('officialMaps').addEventListener('show.bs.modal', () => {
+        if (official) return;
+        const tab = document.querySelector(`[data-bs-target="#om-${map.floor === 2 ? 'second' : 'site'}"]`);
+        if (tab) bootstrap.Tab.getOrCreateInstance(tab).show();
+    });
+
     try {
         destinations = await Navi.fetchDestinations();
     } catch (err) {
@@ -190,4 +204,5 @@
     }
     update(!focus);
     if (params.get('locate')) $('locateBtn').click();
+
 })();
